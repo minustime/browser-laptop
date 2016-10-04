@@ -8,6 +8,13 @@ const _ = null
 const AppConstants = {
   APP_NEW_WINDOW: _,
   APP_CLOSE_WINDOW: _,
+  APP_WINDOW_CLOSED: _,
+  APP_WINDOW_CREATED: _,
+  APP_WINDOW_UPDATED: _,
+  APP_NEW_TAB: _,
+  APP_CLOSE_TAB: _,
+  APP_TAB_CLOSED: _,
+  APP_TAB_UPDATED: _,
   APP_ADD_SITE: _,
   APP_CLEAR_HISTORY: _,
   APP_SET_STATE: _,
@@ -60,7 +67,8 @@ const AppConstants = {
   APP_SET_MENUBAR_TEMPLATE: _,
   APP_UPDATE_ADBLOCK_DATAFILES: _,
   APP_UPDATE_ADBLOCK_CUSTOM_RULES: _,
-  APP_SUBMIT_FEEDBACK: _
+  APP_SUBMIT_FEEDBACK: _,
+  APP_SHUTTING_DOWN: _
 }
 
 module.exports = mapValuesByKeys(AppConstants)
