@@ -666,7 +666,7 @@ class Main extends ImmutableComponent {
   }
 
   onMouseDown (e) {
-    // BSCTODO: update this to use eventUtil.eventElHasAncestorWithClasses
+    // TODO(bsclifton): update this to use eventUtil.eventElHasAncestorWithClasses
     let node = e.target
     while (node) {
       if (node.classList &&
